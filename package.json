@@ -1,0 +1,21 @@
+{
+  "name": "vuepress-plugin-zenlive2d-cat",
+  "version": "1.1.1",
+  "description": "Add cat live2d and change model with Theme",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenfection/vuepress-plugin-zenlive2d-cat"
+  },
+  "keywords": [
+    "zenlive2d",
+    "vuepress@next",
+    "live2d-cat-model"
+  ],
+  "files": [
+    "bin"
+  ],
+  "author": "Zenfection",
+  "license": "MIT",
+  "homepage": "github.com/zenfection/vuepress-plugin-zenlive2d-cat"
+}
