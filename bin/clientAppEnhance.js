@@ -1,6 +1,6 @@
 import { defineClientAppEnhance } from '@vuepress/client'
-import Cat from './Cat.vue'
+import Wibu from './Wibu.vue'
 
 export default defineClientAppEnhance(({ app }) => {
-  app.component('Cat', Cat)
+  app.component('Wibu', Wibu)
 })

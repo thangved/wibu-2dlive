@@ -134,7 +134,7 @@
 	]
 
 	export default {
-		name: "Cat",
+		name: "Wibu",
 		data() {
 			return {
 				isLoaded: true,
@@ -146,10 +146,10 @@
 			};
 		},
 		mounted() {
-			this.initCat();
+			this.initWibu();
 			this.$router.afterEach((to, from) => {
 				if (to.path !== from.path) {
-					this.initCat();
+					this.initWibu();
 				}
 			});
 			if (this.isLoaded == true) {
@@ -160,7 +160,7 @@
 			}
 		},
 		methods: {
-			initCat() {
+			initWibu() {
 				const isMobile =
 					/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
 						navigator.userAgent
