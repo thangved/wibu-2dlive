@@ -1,6 +1,6 @@
 const url = `https://cdn.jsdelivr.net/gh/evrstr/live2d-widget-models/live2d_evrstr`
 
-export default data = [
+const data = [
     `${url}/koharu/model.json`,
     `${url}/carcano1891_2201/model.json`,
     `${url}/k2_3301/model.json`,
@@ -126,3 +126,5 @@ export default data = [
     `${url}/miara_pro_en/model.json`,
     `${url}/wa2000_6/model.json`,
 ]
+
+export default data
