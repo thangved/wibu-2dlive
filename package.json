@@ -16,5 +16,8 @@
   ],
   "author": "Minh Thắng",
   "license": "MIT",
-  "homepage": "https://github.com/thangved/wibu-2dlive"
+  "homepage": "https://github.com/thangved/wibu-2dlive",
+  "publishConfig": {
+    "@thangved:registry": "https://npm.pkg.github.com"
+  }
 }
