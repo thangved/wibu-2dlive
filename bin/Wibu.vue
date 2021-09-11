@@ -1,13 +1,11 @@
 <template>
 	<div class="cat-container" v-show="isLoaded">
-		<canvas id="vuepress-cat" :width="style.width" :height="style.height" class="live2d"></canvas>
+		<canvas id="vuepress-wibu" :width="style.width" :height="style.height" class="live2d"></canvas>
 	</div>
 </template>
 
 <script>
-	import live2dJSString from "./zenlive2d";
-	import { useDarkMode } from "@vuepress/theme-default/lib/client";
-	import { watch } from "vue";
+	import live2dJSString from "./live2d";
 	const data = [
 		"https://cdn.jsdelivr.net/gh/evrstr/live2d-widget-models/live2d_evrstr/koharu/model.json",
 		"https://cdn.jsdelivr.net/gh/evrstr/live2d-widget-models/live2d_evrstr/carcano1891_2201/model.json",
@@ -156,7 +154,7 @@
 			});
 			if (this.isLoaded == true) {
 				window.loadlive2d(
-					"vuepress-cat",
+					"vuepress-wibu",
 					data[Math.floor(Math.random() * data.length)]
 				);
 			}
@@ -195,7 +193,7 @@
 		color: #00adb5;
 	}
 
-	.cat-container #vuepress-cat {
+	.cat-container #vuepress-wibu {
 		position: fixed;
 		opacity: 0.9;
 		right: 35px;

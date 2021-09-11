@@ -1,21 +1,20 @@
 {
-  "name": "vuepress-plugin-zenlive2d-cat",
+  "name": "vuepress-plugin-wibu-2dlive",
   "version": "1.1.1",
-  "description": "Add cat live2d and change model with Theme",
+  "description": "Một số model wibu cho vuepress của bạn.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zenfection/vuepress-plugin-zenlive2d-cat"
+    "url": "git+https://github.com/thangved/wibu-2dlive"
   },
   "keywords": [
-    "zenlive2d",
-    "vuepress@next",
-    "live2d-cat-model"
+    "wibu2dlive",
+    "vuepress@next"
   ],
   "files": [
     "bin"
   ],
-  "author": "Zenfection",
+  "author": "Minh Thắng",
   "license": "MIT",
-  "homepage": "github.com/zenfection/vuepress-plugin-zenlive2d-cat"
+  "homepage": "https://github.com/thangved/wibu-2dlive"
 }

@@ -1,1 +1,1 @@
-# wibu-2dlive
+# vuepress-plugin-wibu2d-live
