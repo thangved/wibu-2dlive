@@ -1,1 +1,19 @@
 # vuepress-plugin-wibu2d-live
+
+## usage
+
+> In `.vuepress/config.js`
+
+```javascript
+...
+module.exports = {
+    ...
+    plugins: [
+        ...
+        'vuepress-plugin-wibu-2dlive'
+        ...
+    ]
+    ...
+}
+...
+```
