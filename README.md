@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/vuepress-plugin-wibu-2dlive.svg)](https://badge.fury.io/js/vuepress-plugin-wibu-2dlive)
 ![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)
+[![Node.js CI](https://github.com/thangved/wibu-2dlive/actions/workflows/node.js.yml/badge.svg)](https://github.com/thangved/wibu-2dlive/actions/workflows/node.js.yml)
 
 ## Install
 
