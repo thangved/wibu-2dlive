@@ -28,3 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm ci
+    - run: npm version patch
+    - run: npm publish
