@@ -1,5 +1,5 @@
 <template>
-  <div class="cat-container" v-show="isLoaded">
+  <div class="wibu-container" v-show="isLoaded">
     <canvas
       id="vuepress-wibu"
       :width="style.width"
@@ -66,14 +66,14 @@ export default {
 </script>
 
 <style scoped>
-.cat-container {
+.wibu-container {
   position: fixed;
   right: 50px;
   bottom: 100px;
   color: #00adb5;
 }
 
-.cat-container #vuepress-wibu {
+.wibu-container #vuepress-wibu {
   position: fixed;
   opacity: 0.9;
   right: 35px;
